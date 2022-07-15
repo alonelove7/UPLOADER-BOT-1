@@ -2,17 +2,17 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5417865081:AAEJRB1U8lK8YbX67kC5yQOvB_7UFafdnZw")
     # The Telegram API things
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = int(os.environ.get("API_ID", "392800"))
+    API_HASH = os.environ.get("API_HASH", "f7f4316dac3b4959687b46860b44c265")
     # Get these values from my.telegram.org
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     # Telegram maximum file upload size
-    MAX_FILE_SIZE = 50000000
+    MAX_FILE_SIZE = 4194304000
     TG_MAX_FILE_SIZE = 4194304000 #2097152000
-    FREE_USER_MAX_FILE_SIZE = 50000000
+    FREE_USER_MAX_FILE_SIZE = 4194304000
     # chunk size that should be used with requests
     CHUNK_SIZE = int(128)
     # default thumbnail to be used in the videos
@@ -24,8 +24,8 @@ class Config(object):
     # set timeout for subprocess
     PROCESS_MAX_TIMEOUT = 3600
     # your telegram id
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "5324263057"))
     SESSION_NAME = "UPLOADER-X-BOT"
     # database uri (mongodb)
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://king:139715202Aa@cluster0.v6q7yyu.mongodb.net/?retryWrites=true&w=majority")
     MAX_RESULTS = "50"
